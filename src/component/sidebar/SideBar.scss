@@ -1,0 +1,24 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  .search {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    .search__button {
+      &.MuiButtonBase-root {
+        background: linear-gradient(91.47deg, #da458f -6%, #da34dd 113.05%);
+        color: white;
+        text-transform: none;
+      }
+    }
+    .search__refresh {
+      &.MuiButtonBase-root {
+        background: linear-gradient(91.47deg, #e1c02d -6%, #e8c605 113.05%);
+        color: black;
+        text-transform: none;
+      }
+    }
+  }
+}

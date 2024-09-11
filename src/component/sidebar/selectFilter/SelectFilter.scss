@@ -1,0 +1,19 @@
+.select-filter {
+  .select-filter__category {
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .MuiInputBase-root {
+    border: 1px solid #3a3841;
+  }
+  &.MuiFormControl-root {
+    width: 100%;
+    min-width: auto;
+    margin: 8px 0;
+  }
+  &.MuiFormControl-root {
+    width: 100%;
+    min-width: auto;
+  }
+}

@@ -1,0 +1,64 @@
+.card-container {
+  p {
+    color: white;
+  }
+  &.MuiPaper-root {
+    background: #3a384199;
+  }
+  padding: 16px;
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    .chip {
+      &.MuiChip-root {
+        width: fit-content;
+        border-radius: 4px;
+        margin-top: 10px;
+        color: white;
+      }
+    }
+    .favorite-icon {
+      &.MuiSvgIcon-root {
+        margin-top: 10px;
+        color: white;
+      }
+    }
+  }
+  .card-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    .MuiTypography-root {
+      font-size: 16px;
+    }
+    .MuiBox-root {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      .card-action__label {
+        &.MuiAvatar-root {
+          width: 8px;
+          height: 12px;
+        }
+      }
+      .MuiTypography-root {
+        font-size: 14px;
+      }
+    }
+  }
+  .card-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    padding-right: 16px;
+    .card-content__avatar {
+      width: 32px;
+      height: 32px;
+    }
+    .card-content__text {
+      font-size: 12px;
+    }
+  }
+}

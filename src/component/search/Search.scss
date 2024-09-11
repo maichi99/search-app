@@ -1,0 +1,43 @@
+.search-container {
+  overflow-y: scroll;
+  height: 500px;
+  &.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  display: grid;
+  grid-template-rows: auto;
+  gap: 20px;
+  .search-container__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .search-container__button {
+    .search-container__button-view {
+      &.MuiButtonBase-root {
+        background: linear-gradient(91.47deg, #da458f -6%, #da34dd 113.05%);
+        color: white;
+        text-transform: none;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .search-container__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .search-container__content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}

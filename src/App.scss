@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background-image: url("./assets/4127300-01\ 1.png");
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  .header-container {
+    grid-area: hd;
+  }
+  .search-container {
+    grid-area: sch;
+  }
+  .sidebar-container {
+    grid-area: sb;
+  }
+  .footer-container {
+    grid-area: ft;
+  }
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd hd "
+    ". sb sb sch sch sch sch sch sch ."
+    "ft ft ft ft ft ft ft ft ft ft";
+}
+@media screen and (max-width: 768px) {
+  .App {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "hd hd hd hd "
+      ". sb sb ."
+      ". sch sch ."
+      "ft ft ft ft ";
+  }
+}
