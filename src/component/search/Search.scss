@@ -28,16 +28,20 @@
   }
 }
 @media (max-width: 900px) {
-  .search-container__content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  .search-container {
+    .search-container__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
   }
 }
 @media (max-width: 768px) {
-  .search-container__content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+  .search-container {
+    .search-container__content {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
   }
 }
