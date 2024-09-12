@@ -4,6 +4,7 @@ import image2 from "../../assets/pngwing 6 (1).png";
 import image3 from "../../assets/pngwing 6 (2).png";
 import image4 from "../../assets/pngwing 6 (3).png";
 import image5 from "../../assets/pngwing 6 (4).png";
+import { ChipProps } from "../search/chip/MultipleChips";
 
 export type FilterCategory = "tier" | "theme" | "price";
 
@@ -30,6 +31,18 @@ export const filterData: FilterOptions = {
     { value: "HIGH_TO_LOW", label: "High to low" },
   ],
 };
+export const chipCategoryData: ChipProps[] = [
+  { label: "All", color: "secondary" },
+  { label: "Upper body", color: "secondary" },
+  { label: "Lower body", color: "secondary" },
+  { label: "Hat", color: "secondary" },
+  { label: "Shoes", color: "secondary" },
+  { label: "Accessory", color: "secondary" },
+  { label: "legendary", color: "secondary" },
+  { label: "Mythic", color: "secondary" },
+  { label: "Epic", color: "secondary" },
+  { label: "Rare", color: "secondary" },
+];
 export const filterDataDefault = {
   tier: "",
   theme: "",

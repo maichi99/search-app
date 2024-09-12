@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../../store/store";
 import { Button, CircularProgress } from "@mui/material";
 import { fetchData } from "../../store/search/searchSlice";
+import MultipleChips from "./chip/MultipleChips";
+import { chipCategoryData } from "../sidebar/data";
 
 const Search: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
@@ -58,6 +60,9 @@ const Search: React.FC = () => {
 
   return (
     <div className="search-container">
+      <div className="search-container__button-category">
+        <MultipleChips chips={chipCategoryData} />
+      </div>
       <div className="search-container__content">
         {itemsToShow.map((item, index) => (
           <CardInformation key={index} {...item} />
