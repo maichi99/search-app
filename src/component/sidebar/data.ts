@@ -62,6 +62,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 23.75,
     image: image2,
     time: new Date("2023-10-01"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Common",
@@ -69,6 +71,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 11.75,
     image: image3,
     time: new Date("2023-09-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Rare",
@@ -76,6 +80,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 4.75,
     image: image4,
     time: new Date("2023-08-20"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -83,6 +89,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 5.75,
     image: image5,
     time: new Date("2023-07-25"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -90,6 +98,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 6.75,
     image: image1,
     time: new Date("2023-06-30"),
+    backGround:
+      "linear-gradient(90deg, rgba(221,90,254,1) 52%, rgba(99,102,241,1) 100%)",
   },
   {
     tier: "Epic",
@@ -97,6 +107,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 7.75,
     image: image2,
     time: new Date("2023-05-15"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Epic",
@@ -104,6 +116,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 8.75,
     image: image3,
     time: new Date("2023-04-10"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Epic",
@@ -111,6 +125,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 9.75,
     image: image4,
     time: new Date("2023-03-05"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Epic",
@@ -118,6 +134,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 9.75,
     image: image5,
     time: new Date("2023-02-01"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -125,6 +143,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 5.75,
     image: image1,
     time: new Date("2023-01-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(221,90,254,1) 52%, rgba(99,102,241,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -132,6 +152,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 6.75,
     image: image2,
     time: new Date("2022-12-10"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Epic",
@@ -139,6 +161,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 7.75,
     image: image3,
     time: new Date("2022-11-20"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Rare",
@@ -146,6 +170,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 4.75,
     image: image4,
     time: new Date("2022-10-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -153,6 +179,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 5.75,
     image: image5,
     time: new Date("2022-09-10"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -160,6 +188,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 6.75,
     image: image1,
     time: new Date("2022-08-05"),
+    backGround:
+      "linear-gradient(90deg, rgba(221,90,254,1) 52%, rgba(99,102,241,1) 100%)",
   },
   {
     tier: "Epic",
@@ -167,6 +197,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 7.75,
     image: image2,
     time: new Date("2022-07-01"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Epic",
@@ -174,6 +206,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 8.75,
     image: image3,
     time: new Date("2022-06-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Common",
@@ -181,6 +215,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 11.75,
     image: image4,
     time: new Date("2022-05-20"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Rare",
@@ -188,6 +224,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 4.75,
     image: image5,
     time: new Date("2022-04-10"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -195,6 +233,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 5.75,
     image: image1,
     time: new Date("2022-03-05"),
+    backGround:
+      "linear-gradient(90deg, rgba(221,90,254,1) 52%, rgba(99,102,241,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -202,6 +242,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 6.75,
     image: image2,
     time: new Date("2022-02-01"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Epic",
@@ -209,6 +251,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 7.75,
     image: image3,
     time: new Date("2022-01-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Epic",
@@ -216,6 +260,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 8.75,
     image: image4,
     time: new Date("2021-12-10"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Common",
@@ -223,6 +269,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 11.75,
     image: image5,
     time: new Date("2021-11-20"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
   {
     tier: "Rare",
@@ -230,6 +278,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 4.75,
     image: image1,
     time: new Date("2021-10-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(221,90,254,1) 52%, rgba(99,102,241,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -237,6 +287,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 5.75,
     image: image2,
     time: new Date("2021-09-10"),
+    backGround:
+      " linear-gradient(90deg, rgba(34,180,198,0.8352591036414566) 49%, rgba(73,221,129,1) 100%)",
   },
   {
     tier: "Legendary",
@@ -244,6 +296,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 6.75,
     image: image3,
     time: new Date("2021-08-05"),
+    backGround:
+      "linear-gradient(90deg, rgba(67,166,246,1) 52%, rgba(88,104,243,1) 100%)",
   },
   {
     tier: "Epic",
@@ -251,6 +305,8 @@ export const inFormationData: CardInformationProps[] = [
     price: 7.75,
     image: image4,
     time: new Date("2021-07-01"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,90,90,1) 52%, rgba(241,99,210,1) 100%)",
   },
   {
     tier: "Epic",
@@ -258,5 +314,7 @@ export const inFormationData: CardInformationProps[] = [
     price: 8.75,
     image: image5,
     time: new Date("2021-06-15"),
+    backGround:
+      "linear-gradient(90deg, rgba(254,149,90,1) 52%, rgba(241,218,99,1) 100%)",
   },
 ];

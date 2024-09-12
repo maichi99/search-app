@@ -16,21 +16,21 @@ export interface CardInformationProps {
   price: number;
   time: Date;
   image?: string;
+  backGround?: string;
 }
-const gradientBackground =
-  "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,11,133,1) 0%, rgba(97,15,239,1) 100%, rgba(0,212,255,1) 100%)";
 
 const CardInformation: React.FC<CardInformationProps> = ({
   tier,
   theme,
   price,
   image,
+  backGround,
 }) => {
   return (
     <Card sx={{ maxWidth: 345 }} className="card-container">
       <Box
         sx={{
-          background: gradientBackground,
+          background: backGround,
         }}
       >
         <div className="card-header">
