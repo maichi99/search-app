@@ -41,12 +41,24 @@ const SideBar: React.FC = () => {
     const [min, max] = priceRange;
     data = data.filter((item) => item.price >= min && item.price <= max);
 
-    data = data.slice().sort((a, b) => {
-      if (searchValue?.price === "LOW_TO_HIGH") return a.price - b.price;
-      if (searchValue?.price === "HIGH_TO_LOW") return b.price - a.price;
-      return 0;
-    });
+    // Apply sorting based on search values
+    if (searchValue?.price || searchValue?.time) {
+      data = data.slice().sort((a, b) => {
+        if (searchValue?.price) {
+          if (searchValue.price === "LOW_TO_HIGH") return a.price - b.price;
+          if (searchValue.price === "HIGH_TO_LOW") return b.price - a.price;
+        }
+        if (searchValue?.time) {
+          if (searchValue.time === "LATEST")
+            return b.time.getTime() - a.time.getTime();
+          if (searchValue.time === "OLDEST")
+            return a.time.getTime() - b.time.getTime();
+        }
+        return 0; // Default case if no criteria are set
+      });
+    }
 
+    // Filter by tier, theme, and time
     return data.filter((item) => {
       const matchesTier = searchValue?.tier
         ? item.tier.toLowerCase() === searchValue.tier.toLowerCase()

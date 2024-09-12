@@ -14,6 +14,7 @@ export interface CardInformationProps {
   tier: string;
   theme: string;
   price: number;
+  time: Date;
   image?: string;
 }
 const gradientBackground =

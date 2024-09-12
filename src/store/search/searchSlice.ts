@@ -21,7 +21,7 @@ export const fetchData = createAsyncThunk("data/fetchData", async () => {
   // Fake Calling API by using setTimeout
   return new Promise<CardInformationProps[]>((resolve) => {
     setTimeout(() => {
-      resolve(inFormationData);
+      resolve(inFormationData as CardInformationProps[]);
     }, 3000);
   });
 });
