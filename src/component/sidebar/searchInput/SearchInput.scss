@@ -1,0 +1,15 @@
+.search-input-container {
+  &.MuiPaper-root {
+    background: none;
+    border: 1px solid #89888b;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .MuiButtonBase-root {
+    color: #89888b;
+  }
+  .MuiInputBase-root {
+    color: #89888b;
+  }
+}

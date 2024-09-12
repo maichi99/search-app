@@ -12,7 +12,7 @@ type InFormationData = {
 };
 const initialState: InFormationData = {
   data: [],
-  originalData: inFormationData,
+  originalData: [],
   loading: false,
   error: null,
   isFiltered: false,
@@ -50,6 +50,7 @@ export const searchSlice = createSlice({
       })
       .addCase(fetchData.fulfilled, (state, action) => {
         state.data = action.payload;
+        state.originalData = action.payload;
         state.loading = false;
       })
       .addCase(fetchData.rejected, (state, action) => {

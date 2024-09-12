@@ -4,6 +4,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Typography from "@mui/material/Typography";
 import React, { useState, useCallback, useEffect } from "react";
 import "./SelectFilter.scss";
+import { FilterCategory } from "../data";
 
 export type SelectFilterOption = {
   label: string;
@@ -12,12 +13,12 @@ export type SelectFilterOption = {
 
 export type SelectValue = {
   value: string;
-  category: string;
+  category: FilterCategory;
 };
 
 export type SelectFilterProps = {
   options: SelectFilterOption[];
-  category: string;
+  category: FilterCategory;
   defaultValue?: string;
   handleSearchFilter?: ({ value, category }: SelectValue) => void;
   refreshKey: number;
