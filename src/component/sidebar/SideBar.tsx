@@ -9,6 +9,7 @@ import SelectFilter from "./selectFilter";
 import SliderFilter from "./sliderFilter";
 import SearchInput from "./searchInput";
 import { SelectValue } from "./selectFilter/SelectFilter";
+import ClearIcon from "@mui/icons-material/Clear";
 import debounce from "../../utils";
 
 export type InformationType = {
@@ -124,8 +125,12 @@ const SideBar: React.FC = () => {
         );
       })}
       <div className="search">
-        <Button className="search__refresh" onClick={handleRefresh}>
-          Refresh
+        <Button
+          className="search__refresh"
+          onClick={handleRefresh}
+          startIcon={<ClearIcon className="search__refresh-icon" />}
+        >
+          Reset Filter
         </Button>
         <Button className="search__button" onClick={handleOnClick}>
           Search

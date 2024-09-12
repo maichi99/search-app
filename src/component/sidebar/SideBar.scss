@@ -15,9 +15,16 @@
     }
     .search__refresh {
       &.MuiButtonBase-root {
-        background: linear-gradient(91.47deg, #e1c02d -6%, #e8c605 113.05%);
-        color: black;
+        color: white;
         text-transform: none;
+      }
+      .search__refresh-icon {
+        &.MuiSvgIcon-root {
+          background: linear-gradient(91.47deg, #e1c02d -6%, #e8c605 113.05%);
+          border-radius: 10px;
+          size: 14px;
+          color: black;
+        }
       }
     }
   }
